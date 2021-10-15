@@ -35,7 +35,7 @@
         <div class="d-flex flex-column" id="content-wrapper">
             <div id="content">
                   <jsp:include page="title.jsp"/>
-                <h3 class="text-dark mb-4" style="margin-left: 26px;">Employee management</h3>
+                <h3 class="text-dark mb-4" style="margin-left: 24px;">Employee management</h3>
                 <div class="container-fluid">
                     <div class="card shadow">
                         <div class="card-header py-3">
@@ -47,7 +47,7 @@
                                     <thead>
                                         <tr>
                                             <th>ID</th>
-                                            <th>Name</th>
+                                            <th>User Name</th>
                                             <th>E-Mail</th>
                                             <th>Address</th>
                                             <th>Telephone</th>
@@ -89,7 +89,7 @@
             </div>
             <footer class="bg-white sticky-footer">
                 <div class="container my-auto">
-                    <div class="text-center my-auto copyright"><span>Copyright © TaxiMe 2021</span></div>
+                    <div class="text-center my-auto copyright"><span>Copyright Â© TaxiMe 2021</span></div>
                 </div>
             </footer>
         </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
