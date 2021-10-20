@@ -78,6 +78,7 @@ public class Semployee implements Iemployee{
 	
 	            while(result.next()){
 	             
+			    //create functions for each sub groups
 	            	
 	            	employee.setId(result.getInt("id"));
 	            	employee.setName(result.getString("name"));
